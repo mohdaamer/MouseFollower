@@ -22,9 +22,11 @@ html,body{
 .cursor{
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
+    transition: all linear .1s;
+    mix-blend-mode: difference;
 }
 h1{
     font-size: 5vw;
